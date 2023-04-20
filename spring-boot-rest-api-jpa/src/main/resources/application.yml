@@ -1,0 +1,12 @@
+server:
+    port: 8087
+
+spring:
+    jpa:
+        hibernate:
+            ddl-auto: none
+    datasource:
+          url: jdbc:mysql://localhost:3307/our_spring_boot_app
+          username: root
+          password: Vish@1617
+          driverClassName: com.mysql.cj.jdbc.Driver
